@@ -1,0 +1,62 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    background-color: #101010;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+.logo_container {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.logo_container h1 {
+    vertical-align: middle;
+    font-size: large;
+    display: table-cell;
+    color: rgb(255, 255, 255);
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    padding: 0px 100px;
+    margin: 0;
+}
+
+.navigation a {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li {
+    vertical-align: middle;
+    display: table;
+    font-size: 30px;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+}
+
+.content {
+    color: #ffffff;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
