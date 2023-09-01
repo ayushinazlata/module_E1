@@ -3,12 +3,13 @@
 }
 
 .header {
-    background-color: #101010;
-    color: aliceblue;
+    background-color: #b5dfc3;
+    color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
-    padding: 20px 20px;
+    padding: 0px 30px;
     margin: 0;
+    display: inline-flex;
 }
 
 .logo_container {
@@ -16,14 +17,15 @@
     width: auto;
     display: inline-block;
     padding: 0px 20px;
-    background-color: #101010;
+    background-color: #3b00a8;
 }
 
 .logo_container h1 {
     vertical-align: middle;
     font-size: large;
-    display: table-cell;
-    color: rgb(255, 255, 255);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 0;
 }
 
 .navigation {
@@ -37,7 +39,7 @@
     height: 100%;
     float: left;
     padding: 0px 20px;
-    background-color: #101010;
+    background-color: #a2d135;
 }
 
 .navigation a li {
@@ -53,10 +55,27 @@
 }
 
 .content {
-    color: #ffffff;
+    color: #000000;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+.content h1 {
+    padding-left: 300px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+    font-size: 25px;
+    float: left;
+    margin-top: 0px;
 }
 
 .leftimg {
     float: left;
-    margin: 7px 7px 7px 0;
+    margin: 0px 20px 0px 4px;
 }
